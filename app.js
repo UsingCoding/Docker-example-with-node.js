@@ -4,36 +4,40 @@ let PORT = process.env.PORT;
 
 let products = [
     {
-        authorName : 'Igor',
-        name : "Lp with fun",
+        id : "345",
+        title: "Lp with fun",
         price : "39.90",
-        thumbnail : "https://coverfiles.alphacoders.com/677/67774.jpg",
+        thumbnail_url : "https://coverfiles.alphacoders.com/677/67774.jpg",
         description : "Описывая это шедевр не получится ",
-        url : "https://yorsh.com/mari"
+        url : "https://yorsh.com/mari",
+        isDeleted : false
     },
     {
-        authorName : 'nameLessPoc',
-        name : "Lp",
+        id : "15",
+        title: "Lp",
         price : "Free",
-        thumbnail : "https://coverfiles.alphacoders.com/677/67774.jpg",
+        thumbnail_url : "https://coverfiles.alphacoders.com/677/67774.jpg",
         description : "Useless stuff ",
-        url : "https://yorsh.com/mari"
+        url : "https://yorsh.com/mari",
+        isDeleted : false
     },
     {
-        authorName : 'John Pon',
-        name : "Lp",
+        id : "17",
+        title: "Lp",
         price : "500",
-        thumbnail : "https://coverfiles.alphacoders.com/677/67774.jpg",
+        thumbnail_url : "https://coverfiles.alphacoders.com/677/67774.jpg",
         description : "Buy it please",
-        url : "https://yorsh.com/mari"
+        url : "https://yorsh.com/mari",
+        isDeleted : false
     },
     {
-        authorName : 'Spam',
-        name : "Somebody, help me",
+        id : "2222",
+        title: "Somebody, help me",
         price : "Free",
-        thumbnail : "https://coverfiles.alphacoders.com/677/67774.jpg",
+        thumbnail_url : "https://coverfiles.alphacoders.com/677/67774.jpg",
         description : "Why we still here, just to suffer",
-        url : "https://yorsh.com/mari"
+        url : "https://yorsh.com/mari",
+        isDeleted : false
     }
 ]
 
